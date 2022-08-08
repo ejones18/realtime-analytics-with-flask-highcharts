@@ -5,7 +5,7 @@ An example Flask web application used to display live, 5-minutely API data using
 
 ## How do I get set-up?
 
-* Generate an API key at https://openweathermap.org/api and update the ajax request in the graph.js script.
+* Generate an API key at https://openweathermap.org/api and update the ajax request in the graph.js script - to alter location also change the lat and lon params in the API URL.
 * Install the dependencies by running ```pip install -r "requirements.txt"``` at the top level of the directory.
 * Run the ```launch_flask.ps1``` powershell script to launch the app.
 
