@@ -1,0 +1,15 @@
+{% set activepage = 'Home' %}
+{% extends "base.html" %}
+{% block content %}
+<link href="/static/css/index.css" rel="stylesheet" type="text/css">
+
+<div id="chart-container-1"></div>
+
+{% endblock content%}
+
+{% block scripts %}
+    {{super()}}
+    <script src="/static/js/chart.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js" type="text/javascript"></script>
+    <script src="https://code.highcharts.com/highcharts.js" type="text/javascript"></script>
+{% endblock scripts %}
