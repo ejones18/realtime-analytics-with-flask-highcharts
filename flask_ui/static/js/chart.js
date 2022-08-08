@@ -14,7 +14,7 @@ $( document ).ready(function() {
 
 function refresh_weather_data() {
     $.ajax({
-        url: "https://api.openweathermap.org/data/2.5/weather?lat=51.455&lon=-0.942&appid=<register_for_api_key>",
+        url: "https://api.openweathermap.org/data/2.5/weather?lat=51.455&lon=-0.942&appid=005464511ba0ae8fc0ba04ad5c34c7d4",
         dataType: 'json',
         success: function(raw){
             temp = parseFloat(((raw.main.temp) - 273.15).toPrecision(4))

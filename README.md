@@ -10,3 +10,5 @@ An example Flask web application used to display live, 5-minutely API data using
 * Run the ```launch_flask.ps1``` powershell script to launch the app.
 
 ## Example
+
+![Example graph](./imgs/example.png)
